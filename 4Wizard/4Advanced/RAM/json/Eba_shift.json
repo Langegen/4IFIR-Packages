@@ -1,0 +1,26 @@
+[
+    {
+        "name": "0 - Default",
+        "dec": "0"
+    },
+    {
+        "name": "1 - ECO ST1",
+        "dec": "1"
+    },
+    {
+        "name": "2 - SYK-LOH",
+        "dec": "2"
+    },
+    {
+        "name": "3 - ST3",
+        "dec": "3"
+    },
+    {
+        "name": "4 - ST4",
+        "dec": "4"
+    },
+    {
+        "name": "5 - LOH-C4C",
+        "dec": "5"
+    }
+]

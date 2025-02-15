@@ -1,0 +1,257 @@
+[
+	{
+		"name": "TABLE_BASE",
+		"base": "7160,8896,10632,88",
+        "base_increment": "56,56,56,4"
+	},
+	{
+		"name": "> GPU Voltage Table",
+		"state": "filler"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+        "name": "307mhz",
+        "offset": "0",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "921mhz",
+        "offset": "16",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "345mhz",
+        "offset": "1",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "960mhz",
+        "offset": "17",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "384mhz",
+        "offset": "2",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "998mhz",
+        "offset": "18",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "422mhz",
+        "offset": "3",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1036mhz",
+        "offset": "19",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "460mhz",
+        "offset": "4",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1075mhz",
+        "offset": "20",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "499mhz",
+        "offset": "5",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1113mhz",
+        "offset": "21",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "537mhz",
+        "offset": "6",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1152mhz",
+        "offset": "22",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "576mhz",
+        "offset": "7",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1190mhz",
+        "offset": "23",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "614mhz",
+        "offset": "8",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1228mhz",
+        "offset": "24",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "652mhz",
+        "offset": "9",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1267mhz",
+        "offset": "25",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "691mhz",
+        "offset": "10",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1305mhz",
+        "offset": "26",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "729mhz",
+        "offset": "11",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1344mhz",
+        "offset": "27",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "768mhz",
+        "offset": "12",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1382mhz",
+        "offset": "28",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "806mhz",
+        "offset": "13",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1420mhz",
+        "offset": "29",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "844mhz",
+        "offset": "14",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "MAXmhz",
+        "offset": "30",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "883mhz",
+        "offset": "15",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+	{
+		"name": "",
+		"state": "filler"
+	},
+{
+		"name": "",
+		"state": "filler"
+	},
+
+{
+		"name": "pMEH(0-11)",
+		"offset": "12364,12368,12372,12376,12380,12384,12388,12392,12396,12400,12404,12408",
+		"length": "2"
+	},
+	{
+		"name": "pMEH(12-21)",
+		"offset": "12412,12416,12420,12424,12428,12432,12436,12440,12444,12448",
+		"length": "2"
+	},
+{
+		"name": "",
+		"state": "filler"
+	},
+	
+	{
+		"name": "sMEH(0-11)",
+		"offset": "12460,12464,12468,12472,12476,12480,12484,12488,12492,12496,12500,12504",
+		"length": "2"
+	},
+	{
+		"name": "sMEH(12-16)",
+		"offset": "12508,12512,12516,12520,12524",
+		"length": "2"
+	},
+
+	{
+		"name": "",
+		"state": "filler"
+	}
+
+]

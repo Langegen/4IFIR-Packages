@@ -1,0 +1,34 @@
+[
+    {
+        "name": "eBAMATIC",
+        "dec": "0"
+    },
+    {
+        "name": "Auto",
+        "dec": "1"
+    },
+    {
+        "name": "25",
+        "dec": "25"
+    },
+    {
+        "name": "Sport - 50",
+        "dec": "50"
+    },
+    {
+        "name": "ECO Stage 1 - 100",
+        "dec": "100"
+    },
+    {
+        "name": "ECO Stage 2 - 125",
+        "dec": "125"
+    },
+    {
+        "name": "ECO Stage 3 - 150",
+        "dec": "150"
+    },
+    {
+        "name": "175",
+        "dec": "175"
+    }
+]

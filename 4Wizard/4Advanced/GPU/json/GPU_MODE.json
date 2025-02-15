@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Eco 0 - Default",
+        "dec": "0"
+    },
+    {
+        "name": "Eco ST1",
+        "dec": "1"
+    },
+    {
+        "name": "Eco ST2",
+        "dec": "2"
+    },    
+    {
+        "name": "Custom Table",
+        "dec": "3"
+    }
+
+]
