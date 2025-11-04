@@ -3,29 +3,23 @@
 		"name": "CPU Minimum Voltage",
 		"offset": "48",
 		"length": "3",
-		"extent": " mV",
-		"state": "check_extent"
+		"ref": "/switch/.packages/4Wizard/4Advanced/CPU/json/cpuv.json"
 	},
 	{
 		"name": "CPU Maximum Voltage",
 		"offset": "28",
 		"length": "4",
-		"extent": " mV",
-		"state": "check_extent"
+		"ref": "/switch/.packages/4Wizard/4Advanced/CPU/json/voltage_mariko.json"
 	},
 	{
 		"name": "dCPUv",
 		"offset": "12348",
-		"length": "4",
-		"extent": " mV",
-		"state": "check_extent"
+		"length": "4"
 	},
 	{
 		"name": "CPU Boost Clock",
 		"offset": "12",
-		"length": "4",
-		"extent": " MHz",
-		"state": "check_extent"
+		"length": "4"
 	},
 	{
 		"name": "Low MHz Undervolt Mode",
@@ -40,7 +34,8 @@
 	{
 		"name": "Speedshift",
 		"offset": "12336",
-		"length": "3"
+		"length": "3",
+		"ref": "/switch/.packages/4Wizard/4Advanced/CPU/json/SpeedShift.json"
 	},
 	{
 		"name": "",
@@ -49,21 +44,20 @@
         {
 		"name": "GPU Eco Mode",
 		"offset": "44",
-		"length": "1"
+		"length": "1",
+		"ref": "/switch/.packages/4Wizard/4Advanced/GPU/json/GPU_MODE.json"
 	},
 	{
 		"name": "GPUv",
 		"offset": "52",
 		"length": "3",
-		"extent": " mV",
-		"state": "check_extent"
+		"ref": "/switch/.packages/4Wizard/4Advanced/GPU/json/GPUv.json"
 	},
 	{
-		"name": "GPU Over Mode",
-		"offset": "12344",
+		"name": "GPUv offset",
+		"offset": "12448",
 		"length": "4",
-		"extent": " mV",
-		"state": "check_extent"
+		"ref": "/switch/.packages/4Wizard/4Advanced/GPU/json/GPUv_offset.json"
 	},
 	{
 		"name": "",
@@ -108,20 +102,20 @@
 		"state": "check_extent"
 	},
 	{
-		"name": "Core Timings",
-		"offset": "60,64,68,72,76,80,84,12356",
+		"name": "Eba-shift",
+		"offset": "12360",
 		"length": "1"
 	},
 	{
-		"name": "Eba-shift",
-		"offset": "12360",
+		"name": "Core Timings",
+		"offset": "60,64,68,72,76,80,84,12356",
 		"length": "1"
 	},
 	{
 		"name": "",
 		"state": "filler"
 	},
-{
+	{
 		"name": "EMC - 4IFIR Optimised",
 		"state": "filler"
 	},
@@ -129,21 +123,26 @@
 	{
 		"name": "RAM Optimised Mode",
 		"offset": "12524",
-		"length": "2"
+		"length": "2",
+		"ref": "/switch/.packages/4Wizard/4Advanced/4IFIR Optimised/json/RAM_mode.json"
 	},
 	{
 		"name": "Boost Stage",
 		"offset": "12492",
-		"length": "2"
-	},	
+		"length": "2",
+		"ref": "/switch/.packages/4Wizard/4Advanced/4IFIR Optimised/json/boost.json"
+
+	},
 	{
-		"name": "GPU Vmin offset",
+		"name": "GPUv offset",
 		"offset": "12440",
 		"length": "2"
 	},
 	{
 		"name": "Vdd2/Vddq offset",
 		"offset": "12444",
-		"length": "2"
+		"length": "2",
+		"ref": "/switch/.packages/4Wizard/4Advanced/4IFIR Optimised/json/vddq.json"
+
 	}
 ]
