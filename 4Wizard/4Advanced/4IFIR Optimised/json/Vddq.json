@@ -1,0 +1,53 @@
+[
+    {
+        "name": "350mV - Unstable",
+        "dec": "350",
+        "color": "Orange"
+    },
+    {
+        "name": "400mV - Unstable",
+        "dec": "400",
+        "color": "Orange"
+    },
+    {
+        "name": "450mV - Unstable",
+        "dec": "450",
+        "color": "Orange"
+    },
+    {
+        "name": "500mV - Eco",
+        "dec": "500"
+    },
+    {
+        "name": "550mV",
+        "dec": "550"
+    },
+    {
+        "name": "560mV",
+        "dec": "560"
+    },
+    {
+        "name": "570mV",
+        "dec": "570"
+    },
+    {
+        "name": "580mV",
+        "dec": "580"
+    },
+    {
+        "name": "590mV",
+        "dec": "590"
+    },
+    {
+        "name": "600mV",
+        "dec": "600"
+    },
+    {
+        "name": "625mV",
+        "dec": "625"
+    },
+    {
+        "name": "650mV - Default",
+        "dec": "650"
+    }
+]
