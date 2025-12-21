@@ -116,22 +116,10 @@
 		"state": "filler"
 	},
 	{
-		"name": "EMC - 4IFIR Optimised",
-		"state": "filler"
-	},
-
-	{
 		"name": "RAM Optimised Mode",
 		"offset": "12524",
 		"length": "2",
 		"ref": "/switch/.packages/4Wizard/4Advanced/4IFIR Optimised/json/RAM_mode.json"
-	},
-	{
-		"name": "Boost Stage",
-		"offset": "12492",
-		"length": "2",
-		"ref": "/switch/.packages/4Wizard/4Advanced/4IFIR Optimised/json/boost.json"
-
 	},
 	{
 		"name": "GPUv offset",
@@ -139,10 +127,20 @@
 		"length": "2"
 	},
 	{
-		"name": "Vdd2/Vddq offset",
-		"offset": "12444",
-		"length": "2",
-		"ref": "/switch/.packages/4Wizard/4Advanced/4IFIR Optimised/json/vddq.json"
+   		 "name": "Vddq",
+    		 "ini": "/config/4IFIR/emc_timings.ini",
+    		 "section": "auto",
+   		 "key": "eVDQ",
+  		 "prefix": "Mode: ",
+   		 "extent": " units"
+  	},
+	{
+   		 "name": "Vdd2",
+    		 "ini": "/config/4IFIR/emc_timings.ini",
+    		 "section": "auto",
+   		 "key": "eVD2",
+  		 "prefix": "Mode: ",
+   		 "extent": " mV"
+  	}
 
-	}
 ]
